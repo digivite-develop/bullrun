@@ -25,7 +25,7 @@ export default function MockPage() {
         {/* Hero image – широкая, без внешней карты */}
         <div className="mt-6 md:mt-8">
           <div className="relative mx-auto w-full aspect-[16/9] overflow-hidden border border-black/20">
-            <Image src="/mock/hero.png" alt="Hero" fill className="object-cover" />
+            <Image src="/hero.png" alt="Hero" fill className="object-cover" />
           </div>
         </div>
         <div className="mx-auto w-full max-w-[1200px] px-4 sm:px-6 md:px-8 mb-0">
@@ -65,7 +65,7 @@ export default function MockPage() {
       {/* Binance Wallet title */}
       <div className="flex items-center justify-center md:justify-start gap-3">
         <Image
-          src="/mock/binance-w.png"
+          src="/binance-w.png"
           alt="Binance logo"
           width={150}
           height={40}
@@ -97,7 +97,7 @@ export default function MockPage() {
     <div className="flex-1 flex justify-center md:justify-end">
       <div className="relative w-[260px] sm:w-[320px] md:w-[420px] aspect-[4/5]">
         <Image
-          src="/mock/meme-stack.png"
+          src="/meme-stack.png"
           alt="Meme Rush Stack"
           fill
           className="object-contain"
@@ -151,7 +151,7 @@ export default function MockPage() {
 
       {/* токены */}
       <Image
-        src="/mock/memes/token_10.png"
+        src="/memes/token_10.png"
         alt="meme-1"
         width={170}
   height={170}
@@ -160,7 +160,7 @@ export default function MockPage() {
         priority
       />
       <Image
-        src="/mock/memes/token_20.png"
+        src="/memes/token_20.png"
         alt="meme-2"
         width={180}
         height={180}
@@ -168,7 +168,7 @@ export default function MockPage() {
         className="absolute right-[19%] top-[16%]  w-[22vw] md:w-[18vw] md:right-[25%] md:top-[14%] drop-shadow-[0_8px_14px_rgba(0,0,0,0.45)]"
       />
       <Image
-        src="/mock/memes/token_12.png"
+        src="/memes/token_12.png"
         alt="meme-3"
         width={190}
         height={190}
@@ -176,7 +176,7 @@ export default function MockPage() {
         className="absolute left-1/2 top-[30%] w-[22vw] md:w-[19vw]  md:top-[26%] -translate-x-1/2 drop-shadow-[0_8px_14px_rgba(0,0,0,0.45)]"
       />
       <Image
-        src="/mock/memes/token_14.png"
+        src="/memes/token_14.png"
         alt="meme-rocket"
         width={190}
         height={190}
@@ -184,7 +184,7 @@ export default function MockPage() {
         className="absolute left-[43%] top-[50%] w-[22vw] md:w-[18vw] md:left-[50%] md:top-[46%] -translate-x-1/2 drop-shadow-[0_8px_14px_rgba(0,0,0,0.45)]"
       />
       <Image
-        src="/mock/memes/token_16.png"
+        src="/memes/token_16.png"
         alt="meme-cat"
         width={175}
         height={175}
@@ -195,7 +195,7 @@ export default function MockPage() {
       {/* логотип binance */}
       
         <Image
-        src="/mock/memes/binance_lg.png"
+        src="/memes/binance_lg.png"
         alt="binance"
         width={175}
         height={175}
@@ -217,7 +217,7 @@ export default function MockPage() {
         
         <footer className="mt-10 md:mt-14 pb-12 text-center">
           <Image
-            src="/mock/binance-alpha.png"
+            src="/binance-alpha.png"
             alt="Binance Alpha"
             width={280}
             height={42}

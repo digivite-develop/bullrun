@@ -15,7 +15,7 @@ export default function MockPage() {
         {/* Header */}
         <header className="text-center">
           <h1 className={`${press.className} uppercase text-[4vw] md:text-[36px] leading-tight text-black pt-10`}>
-            Bullrun SiZi （ IZI ）
+            BullrunCZ (BCZ)
           </h1>
           <p className={`${press.className} uppercase mt-3 text-[12px] md:text-[14px] text-black`}>
             Pioneering the Next Era of Memetic Finance
@@ -34,10 +34,10 @@ export default function MockPage() {
         <div className="mt-6 md:mt-8">
           <div className="mx-auto max-w-[980px] px-4 sm:px-6 py-4">
             <p className={`${press.className} uppercase font-bold text-[12px] sm:text-[13px] md:text-[14px] leading-5 md:leading-6 text-center`}>
-              Bullrun Sizizi 2025 is poised to redefine the memecoin landscape.<br/>
+              BullrunCZ (BCZ) 2025 is poised to redefine the memecoin landscape.<br/>
               Born from the confluence of bullish market<br/>
               sentiment and an intriguing legacy,<br/>
-              SiZiZi represents more than just a digital asset;<br/>
+              BCZ represents more than just a digital asset;<br/>
               it embodies resilience and<br/>
               the relentless pursuit of prosperity.
             </p>

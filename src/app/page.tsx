@@ -31,18 +31,38 @@ export default function MockPage() {
         <div className="mx-auto w-full max-w-[1200px] px-4 sm:px-6 md:px-8 mb-0">
 
         {/* Текстовый блок */}
-        <div className="mt-6 md:mt-8">
-          <div className="mx-auto max-w-[980px] px-4 sm:px-6 py-4">
-            <p className={`${press.className} uppercase font-bold text-[12px] sm:text-[13px] md:text-[14px] leading-5 md:leading-6 text-center`}>
-              BullrunCZ (BCZ) 2025 is poised to redefine the memecoin landscape.<br/>
-              Born from the confluence of bullish market<br/>
-              sentiment and an intriguing legacy,<br/>
-              BCZ represents more than just a digital asset;<br/>
-              it embodies resilience and<br/>
-              the relentless pursuit of prosperity.
-            </p>
-          </div>
-        </div>
+        <div className="mt-6 md:mt-10">
+  <div className="mx-auto max-w-[980px] px-4 sm:px-6 py-4">
+    <p
+      className={`${press.className} uppercase font-bold text-[12px] sm:text-[13px] md:text-[14px] leading-5 md:leading-6 text-center tracking-wide`}
+    >
+      BullRunCZ (BCZ) 2025 is poised to redefine the memecoin landscape.<br />
+      Born from the confluence of bullish market sentiment<br />
+      and an intriguing legacy, BCZ represents more than just<br />
+      a digital asset — it embodies resilience and the<br />
+      relentless pursuit of prosperity.
+    </p>
+
+    <p
+      className={`${press.className} mt-6 uppercase text-[11px] sm:text-[12px] md:text-[13px] leading-5 md:leading-6 text-center opacity-90`}
+    >
+      Built on a robust and scalable blockchain foundation,<br />
+      BullRunCZ introduces a dynamic tokenomic model designed<br />
+      to reward long-term holders and foster a vibrant community.<br />
+      A new era of memetic innovation and sustainable growth begins here.
+    </p>
+
+    <p
+      className={`${press.className} mt-6 uppercase text-[11px] sm:text-[12px] md:text-[13px] leading-5 md:leading-6 text-center opacity-80`}
+    >
+      Driven by a forward-thinking strategy and a seasoned team,<br />
+      BullRunCZ (BCZ) isn’t just part of the next alt-season —<br />
+      we are leading it. Setting a new standard for community-driven<br />
+      success and lasting impact in decentralized finance.
+    </p>
+  </div>
+</div>
+
 </div>
         {/* Smart contract – во всю ширину контейнера */}
         <section id="contract" className="mt-6 md:mt-8 mb-6">

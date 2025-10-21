@@ -104,8 +104,22 @@ export default function MockPage() {
         />
       </div>
     </div>
+    
+  </div>
+  <div className="mt-6 text-center pb-15">
+  <a
+    href="https://t.me/BullrunCZ"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex items-center gap-3 bg-[#0088cc] text-white font-semibold px-6 py-3 rounded-full shadow-md hover:bg-[#00a1f1] transition"
+  >
+    <Image src="/telegram.png" alt="Telegram" width={28} height={28} style={{ height: "auto" }} />
+    Join us on Telegram
+  </a>
   </div>
 </section>
+
+
         {/* Bull Run 2025? */}
 <section className="w-full bg-black text-white">
   <div className="mx-auto flex flex-col items-center">

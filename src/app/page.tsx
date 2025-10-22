@@ -4,7 +4,11 @@ import { Press_Start_2P } from "next/font/google";
 
 const press = Press_Start_2P({ subsets: ["latin"], weight: "400" });
 import { Bangers } from "next/font/google";
+import { useEffect, useRef, useState } from "react";
+import dynamic from "next/dynamic";
+const OurMission = dynamic(() => import("@/components/OurMission"), { ssr: false });
 const bangers = Bangers({ subsets: ["latin"], weight: "400" });
+
 
 export default function MockPage() {
   return (
@@ -50,7 +54,7 @@ export default function MockPage() {
             <p className={`${press.className} uppercase text-white text-[18px] md:text-[22px] text-center`}>
               Smart contract
             </p>
-            <div className="mt-3 mx-auto h-6 md:h-8 w-[92%] max-w-[860px] rounded-full bg-white/95" />
+            <a className="block text-center w-fit px-5 mt-3 mx-auto h-6 md:h-8 w-[92%] max-w-[860px] rounded-full bg-white/95"  href="https://pump.fun/coin/Bei2d8N8e2kg2AsurJnLCvWpLjgzHQgcCaURGPizpump">Bei2d8N8e2kg2AsurJnLCvWpLjgzHQgcCaURGPizpump</a>
           </div>
         </section>
 
@@ -118,7 +122,7 @@ export default function MockPage() {
   </a>
   </div>
 </section>
-
+<OurMission pressClass={press.className} />
 
         {/* Bull Run 2025? */}
 <section className="w-full bg-black text-white">
